@@ -1,0 +1,275 @@
+Test 1: New tab, bookmarklet. Success:
+Search "Enhancer" (103 hits in 1 file of 1 searched) [Normal]
+  new 1 (103 hits)
+	Line  267: content.js:4 1750695612152 '[TPE_LOAD_TRACE_ENTRY] Content script executing. URL:' 'https://www.tiktok.com/@tntsportsfootball#tiktokEnhancerFreshLoad=true' 'Document ReadyState:' 'interactive'
+	Line  268: content.js:5 TikTok Profile Enhancer: Script execution started.
+	Line  269: content.js:1216 TikTok Profile Enhancer: Script execution started. Document readyState: interactive
+	Line  270: content.js:1224 TikTok Profile Enhancer: DOM is already ready, calling initializeObservers directly.
+	Line  271: content.js:1072 1750695612152 '[TPE_LOAD_TRACE] initializeObservers called. URL:' 'https://www.tiktok.com/@tntsportsfootball#tiktokEnhancerFreshLoad=true' 'ReadyState: interactive'
+	Line  272: content.js:1073 TikTok Profile Enhancer: initializeObservers() function called.
+	Line  273: content.js:1074 TikTok Profile Enhancer: ENABLE_OBSERVERS flag is set to: true
+	Line  274: content.js:1104 TikTok Profile Enhancer: mainDomObserver STARTED on document.body.
+	Line  275: content.js:1154 TikTok Profile Enhancer: navigationObserver STARTED on <head>.
+	Line  276: content.js:1165 TikTok Profile Enhancer: Scheduling initial processProfilePage calls.
+	Line  277: content.js:1228 TikTok Profile Enhancer content script loaded and initialized.
+	Line  484: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 341 for handleMainPageMutations
+	Line  610: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 346 for handleMainPageMutations
+	Line  611: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 376 for handleMainPageMutations
+	Line  612: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 397 for handleMainPageMutations
+	Line  613: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 405 for handleMainPageMutations
+	Line  661: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 413 for handleMainPageMutations
+	Line  662: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 569 for handleMainPageMutations
+	Line 1092: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 606 for handleMainPageMutations
+	Line 1093: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 797 for handleMainPageMutations
+	Line 1094: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 818 for handleMainPageMutations
+	Line 1095: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 886 for handleMainPageMutations
+	Line 1096: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 894 for handleMainPageMutations
+	Line 1097: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 910 for handleMainPageMutations
+	Line 1098: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 914 for handleMainPageMutations
+	Line 1099: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 999 for handleMainPageMutations
+	Line 1374: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1005 for handleMainPageMutations
+	Line 1375: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1095 for handleMainPageMutations
+	Line 1473: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1097 for handleMainPageMutations
+	Line 1474: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1113 for handleMainPageMutations
+	Line 1475: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1116 for handleMainPageMutations
+	Line 1476: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1125 for handleMainPageMutations
+	Line 1477: content.js:604 1750695613028 '[TPE_LOAD_TRACE] processProfilePage START. URL:' 'https://www.tiktok.com/@tntsportsfootball#tiktokEnhancerFreshLoad=true' 'Hash: #tiktokEnhancerFreshLoad=true' 'ReadyState: interactive'
+	Line 1478: content.js:87 TikTok Profile Enhancer: Attempting to get username from URL: /@tntsportsfootball
+	Line 1479: content.js:91 TikTok Profile Enhancer: Username found: tntsportsfootball
+	Line 1481: content.js:611 1750695613029 "[TPE_LOAD_TRACE] HYPER-DEBUG: Detected BOOKMARKLET_HASH ('#tiktokEnhancerFreshLoad=true') immediately."
+	Line 1485: content.js:100 TikTok Profile Enhancer: Attempting to find tab bar element...
+	Line 1486: content.js:107 TikTok Profile Enhancer: Tab bar not found with data-e2e selector. Trying text-based fallback.
+	Line 1487: content.js:121 TikTok Profile Enhancer: Found potential tab bar via text-based fallback (parent of elements with known texts): <div class=​"css-1b79d9n-DivVideoFeedTab e19uy6s70">​…​</div>​flex
+	Line 1488: content.js:170 TikTok Profile Enhancer: Tab bar found for tntsportsfootball after 1 attempt(s) with polling.
+	Line 1491: content.js:189 TikTok Profile Enhancer: Attempting to extract page data for tntsportsfootball
+	Line 1492: content.js:201 TikTok Profile Enhancer: Found script element: __UNIVERSAL_DATA_FOR_REHYDRATION__
+	Line 1493: content.js:262 TikTok Profile Enhancer: videoCount 10500 found at webapp.user-detail.userInfo.stats.videoCount for tntsportsfootball
+	Line 1494: content.js:280 TikTok Profile Enhancer: extractPageData FINAL RETURN for tntsportsfootball - Video Count: 10500, Total Video IDs Extracted: 2, Items Source: __DEFAULT_SCOPE__.seo.abtest.vidList
+	Line 1497: content.js:576 TikTok Profile Enhancer: Attempting to get stored data for key: tntsportsfootball
+	Line 1518: content.js:582 TikTok Profile Enhancer: Successfully retrieved data for key tntsportsfootball : {lastSeenVideoCount: 10500, lastVisitedTimestamp: '2025-06-23T16:14:55.737Z', seenVideoIds: Array(2)}
+	Line 1521: content.js:308 TikTok Profile Enhancer: injectVideoCountsUI - CALLED. totalCount: 10500, newCount: 0, isRefreshedForCount: true
+	Line 1522: content.js:995 TikTok Profile Enhancer: applyStylingToNewVideos - Received idsToStyle: []
+	Line 1523: content.js:997 TikTok Profile Enhancer: applyStylingToNewVideos - idsToStyle is empty or not an array. Returning early.
+	Line 1525: content.js:588 TikTok Profile Enhancer: Attempting to set stored data for key: tntsportsfootball with data: {lastSeenVideoCount: 10500, lastVisitedTimestamp: '2025-06-23T16:20:13.051Z', seenVideoIds: Array(2)}
+	Line 1527: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1126 for handleMainPageMutations
+	Line 1540: runtime.c2e081c85b5241dd1eea.js:1 [TPE_NAV_TRACE] NAV OBSERVED - IGNORING URL change from https://www.tiktok.com/@tntsportsfootball#tiktokEnhancerFreshLoad=true to https://www.tiktok.com/@tntsportsfootball. Reason: window.isReplacingBookmarkletHash is TRUE.
+	Line 1679: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1169 for handleMainPageMutations
+	Line 1680: content.js:596 TikTok Profile Enhancer: Successfully stored data for key tntsportsfootball
+	Line 1681: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1180 for handleMainPageMutations
+	Line 1682: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1228 for handleMainPageMutations
+	Line 1683: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1233 for handleMainPageMutations
+	Line 1688: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1236 for handleMainPageMutations
+	Line 1689: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1245 for handleMainPageMutations
+	Line 1762: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1263 for handleMainPageMutations
+	Line 1849: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1309 for handleMainPageMutations
+	Line 1903: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1324 for handleMainPageMutations
+	Line 1906: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1334 for handleMainPageMutations
+	Line 2034: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1355 for handleMainPageMutations
+	Line 2036: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1437 for handleMainPageMutations
+	Line 2098: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1439 for handleMainPageMutations
+	Line 2099: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1444 for handleMainPageMutations
+	Line 2100: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1450 for handleMainPageMutations
+	Line 2101: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1472 for handleMainPageMutations
+	Line 2102: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1486 for handleMainPageMutations
+	Line 2103: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1487 for handleMainPageMutations
+	Line 2105: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1488 for handleMainPageMutations
+	Line 2106: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1515 for handleMainPageMutations
+	Line 2107: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1516 for handleMainPageMutations
+	Line 2109: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1517 for handleMainPageMutations
+	Line 2110: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1525 for handleMainPageMutations
+	Line 2111: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1533 for handleMainPageMutations
+	Line 2112: content.js:45 TikTok Profile Enhancer: Debounce executing for handleMainPageMutations
+	Line 2113: content.js:1034 TikTok Profile Enhancer: handleMainPageMutations received 3 mutations.
+	Line 2239: content.js:45 TikTok Profile Enhancer: Debounce executing for 
+	Line 2240: content.js:1080 TikTok Profile Enhancer: Debounced call to processProfilePage from mutation handler (attempt).
+	Line 2241: content.js:87 TikTok Profile Enhancer: Attempting to get username from URL: /@tntsportsfootball
+	Line 2242: content.js:91 TikTok Profile Enhancer: Username found: tntsportsfootball
+	Line 2243: content.js:1094 TikTok Profile Enhancer: Debounced processProfilePage call SKIPPED - Conditions not met.
+	Line 2332: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1536 for handleMainPageMutations
+	Line 2333: content.js:45 TikTok Profile Enhancer: Debounce executing for handleMainPageMutations
+	Line 2334: content.js:1034 TikTok Profile Enhancer: handleMainPageMutations received 2 mutations.
+	Line 2335: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1541 for 
+	Line 2336: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1558 for handleMainPageMutations
+	Line 2337: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1571 for handleMainPageMutations
+	Line 2338: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1572 for handleMainPageMutations
+	Line 2340: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1575 for handleMainPageMutations
+	Line 2341: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1590 for handleMainPageMutations
+	Line 2342: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1601 for handleMainPageMutations
+	Line 2343: content.js:45 TikTok Profile Enhancer: Debounce executing for handleMainPageMutations
+	Line 2344: content.js:1034 TikTok Profile Enhancer: handleMainPageMutations received 2 mutations.
+	Line 2345: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1562 for 
+	Line 2346: content.js:45 TikTok Profile Enhancer: Debounce executing for 
+	Line 2347: content.js:1080 TikTok Profile Enhancer: Debounced call to processProfilePage from mutation handler (attempt).
+	Line 2348: content.js:87 TikTok Profile Enhancer: Attempting to get username from URL: /@tntsportsfootball
+	Line 2349: content.js:91 TikTok Profile Enhancer: Username found: tntsportsfootball
+	Line 2350: content.js:1094 TikTok Profile Enhancer: Debounced processProfilePage call SKIPPED - Conditions not met.
+
+
+Test 2: Standard bookmark, new tab, Failure:
+Search "Enhancer" (165 hits in 1 file of 1 searched) [Normal]
+  new 3 (165 hits)
+	Line  288: content.js:5 TikTok Profile Enhancer: Script execution started.
+	Line  289: content.js:1216 TikTok Profile Enhancer: Script execution started. Document readyState: interactive
+	Line  290: content.js:1224 TikTok Profile Enhancer: DOM is already ready, calling initializeObservers directly.
+	Line  292: content.js:1073 TikTok Profile Enhancer: initializeObservers() function called.
+	Line  293: content.js:1074 TikTok Profile Enhancer: ENABLE_OBSERVERS flag is set to: true
+	Line  294: content.js:1104 TikTok Profile Enhancer: mainDomObserver STARTED on document.body.
+	Line  295: content.js:1154 TikTok Profile Enhancer: navigationObserver STARTED on <head>.
+	Line  296: content.js:1165 TikTok Profile Enhancer: Scheduling initial processProfilePage calls.
+	Line  297: content.js:1228 TikTok Profile Enhancer content script loaded and initialized.
+	Line  522: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 312 for handleMainPageMutations
+	Line  704: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 315 for handleMainPageMutations
+	Line  705: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 405 for handleMainPageMutations
+	Line  706: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 407 for handleMainPageMutations
+	Line  707: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 414 for handleMainPageMutations
+	Line  773: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 419 for handleMainPageMutations
+	Line  774: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 503 for handleMainPageMutations
+	Line  869: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 527 for handleMainPageMutations
+	Line 1234: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 620 for handleMainPageMutations
+	Line 1235: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 624 for handleMainPageMutations
+	Line 1236: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 627 for handleMainPageMutations
+	Line 1237: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 658 for handleMainPageMutations
+	Line 1238: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 694 for handleMainPageMutations
+	Line 1239: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 700 for handleMainPageMutations
+	Line 1245: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 715 for handleMainPageMutations
+	Line 1246: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 716 for handleMainPageMutations
+	Line 1435: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 719 for handleMainPageMutations
+	Line 1521: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 735 for handleMainPageMutations
+	Line 1522: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 798 for handleMainPageMutations
+	Line 1523: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 799 for handleMainPageMutations
+	Line 1524: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 812 for handleMainPageMutations
+	Line 1525: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 816 for handleMainPageMutations
+	Line 1526: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 817 for handleMainPageMutations
+	Line 1528: content.js:87 TikTok Profile Enhancer: Attempting to get username from URL: /@tntsportsfootball
+	Line 1529: content.js:91 TikTok Profile Enhancer: Username found: tntsportsfootball
+	Line 1532: content.js:672 TikTok Profile Enhancer: processProfilePage - (Std Path) ENTERED. User: 'tntsportsfootball', PrevUser: '', isProcessing: false, initialNavInProgress: false
+	Line 1533: content.js:694 TikTok Profile Enhancer: processProfilePage - Flags: isRefreshTriggeredByClick: false, isBookmarkletLoad: false, isLikelyFreshTabOrDirectLoad: true, history.length: 2, initialIsUserNavigationInProgress: false
+	Line 1534: content.js:87 TikTok Profile Enhancer: Attempting to get username from URL: /@tntsportsfootball
+	Line 1535: content.js:91 TikTok Profile Enhancer: Username found: tntsportsfootball
+	Line 1536: content.js:706 TikTok Profile Enhancer: processProfilePage - Derived Flags: showCountsDirectly: false, shouldScheduleDelayedRefresh: true
+	Line 1537: content.js:53 TikTok Profile Enhancer: enableRightClick called.
+	Line 1538: content.js:58 TikTok Profile Enhancer: Adding contextmenu listener.
+	Line 1539: content.js:82 TikTok Profile Enhancer: Right-click enabled and periodic check active.
+	Line 1540: content.js:727 TikTok Profile Enhancer: New profile detected: 'tntsportsfootball'. Old: 'None'. Resetting UI.
+	Line 1541: content.js:291 TikTok Profile Enhancer: removeInjectedUI - CALLED.
+	Line 1542: content.js:297 TikTok Profile Enhancer: removeInjectedUI - No existing UI container found to remove.
+	Line 1543: content.js:743 TikTok Profile Enhancer: Attempting to find tab bar with retries for ANY direct load scenario for user 'tntsportsfootball'.
+	Line 1544: content.js:100 TikTok Profile Enhancer: Attempting to find tab bar element...
+	Line 1545: content.js:107 TikTok Profile Enhancer: Tab bar not found with data-e2e selector. Trying text-based fallback.
+	Line 1546: content.js:121 TikTok Profile Enhancer: Found potential tab bar via text-based fallback (parent of elements with known texts): <div class=​"css-1b79d9n-DivVideoFeedTab e19uy6s70">​…​</div>​flex
+	Line 1547: content.js:170 TikTok Profile Enhancer: Tab bar found for tntsportsfootball after 1 attempt(s) with polling.
+	Line 1548: content.js:404 TikTok Profile Enhancer: Attempting to inject smart bookmark UI.
+	Line 1549: content.js:87 TikTok Profile Enhancer: Attempting to get username from URL: /@tntsportsfootball
+	Line 1550: content.js:91 TikTok Profile Enhancer: Username found: tntsportsfootball
+	Line 1551: content.js:565 TikTok Profile Enhancer: Smart bookmark star injected into: <div class=​"css-1446k2p-DivUserTextWrapper e1gnmlil0">​…​</div>​flex
+	Line 1552: content.js:772 TikTok Profile Enhancer: processProfilePage (Fresh Tab/Direct Load) - Extracting data for 'tntsportsfootball'.
+	Line 1553: content.js:189 TikTok Profile Enhancer: Attempting to extract page data for tntsportsfootball
+	Line 1554: content.js:201 TikTok Profile Enhancer: Found script element: __UNIVERSAL_DATA_FOR_REHYDRATION__
+	Line 1555: content.js:262 TikTok Profile Enhancer: videoCount 10500 found at webapp.user-detail.userInfo.stats.videoCount for tntsportsfootball
+	Line 1556: content.js:280 TikTok Profile Enhancer: extractPageData FINAL RETURN for tntsportsfootball - Video Count: 10500, Total Video IDs Extracted: 2, Items Source: __DEFAULT_SCOPE__.seo.abtest.vidList
+	Line 1557: content.js:576 TikTok Profile Enhancer: Attempting to get stored data for key: tntsportsfootball
+	Line 1558: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 819 for handleMainPageMutations
+	Line 1582: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 822 for handleMainPageMutations
+	Line 1583: content.js:582 TikTok Profile Enhancer: Successfully retrieved data for key tntsportsfootball : {lastSeenVideoCount: 10500, lastVisitedTimestamp: '2025-06-23T16:20:13.051Z', seenVideoIds: Array(2)}
+	Line 1584: content.js:308 TikTok Profile Enhancer: injectVideoCountsUI - CALLED. totalCount: 10500, newCount: 0, isRefreshedForCount: true
+	Line 1585: content.js:995 TikTok Profile Enhancer: applyStylingToNewVideos - Received idsToStyle: []
+	Line 1586: content.js:997 TikTok Profile Enhancer: applyStylingToNewVideos - idsToStyle is empty or not an array. Returning early.
+	Line 1587: content.js:588 TikTok Profile Enhancer: Attempting to set stored data for key: tntsportsfootball with data: {lastSeenVideoCount: 10500, lastVisitedTimestamp: '2025-06-23T16:22:21.080Z', seenVideoIds: Array(2)}
+	Line 1588: content.js:87 TikTok Profile Enhancer: Attempting to get username from URL: /@tntsportsfootball
+	Line 1589: content.js:91 TikTok Profile Enhancer: Username found: tntsportsfootball
+	Line 1590: content.js:824 TikTok Profile Enhancer: processProfilePage FINALLY - Exiting. User for this call: 'tntsportsfootball', User at Exit: 'tntsportsfootball', Processed User State: 'tntsportsfootball', isProcessingPage: false, window.isUserNavigationInProgress (now): false
+	Line 1591: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 834 for handleMainPageMutations
+	Line 1592: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 848 for handleMainPageMutations
+	Line 1593: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 855 for handleMainPageMutations
+	Line 1594: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 861 for handleMainPageMutations
+	Line 1595: content.js:596 TikTok Profile Enhancer: Successfully stored data for key tntsportsfootball
+	Line 1596: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 867 for handleMainPageMutations
+	Line 1599: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 904 for handleMainPageMutations
+	Line 1600: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 919 for handleMainPageMutations
+	Line 1601: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 920 for handleMainPageMutations
+	Line 1602: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 922 for handleMainPageMutations
+	Line 1603: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 971 for handleMainPageMutations
+	Line 1801: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 990 for handleMainPageMutations
+	Line 1863: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1013 for handleMainPageMutations
+	Line 1933: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1068 for handleMainPageMutations
+	Line 1935: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1079 for handleMainPageMutations
+	Line 1936: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1081 for handleMainPageMutations
+	Line 1937: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1104 for handleMainPageMutations
+	Line 1938: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1117 for handleMainPageMutations
+	Line 1939: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1118 for handleMainPageMutations
+	Line 1940: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1119 for handleMainPageMutations
+	Line 1941: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1136 for handleMainPageMutations
+	Line 1942: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1137 for handleMainPageMutations
+	Line 1943: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1138 for handleMainPageMutations
+	Line 1946: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1144 for handleMainPageMutations
+	Line 1947: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1158 for handleMainPageMutations
+	Line 1948: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1164 for handleMainPageMutations
+	Line 1949: content.js:45 TikTok Profile Enhancer: Debounce executing for handleMainPageMutations
+	Line 1950: content.js:1034 TikTok Profile Enhancer: handleMainPageMutations received 3 mutations.
+	Line 2028: content.js:45 TikTok Profile Enhancer: Debounce executing for 
+	Line 2029: content.js:1080 TikTok Profile Enhancer: Debounced call to processProfilePage from mutation handler (attempt).
+	Line 2030: content.js:87 TikTok Profile Enhancer: Attempting to get username from URL: /@tntsportsfootball
+	Line 2031: content.js:91 TikTok Profile Enhancer: Username found: tntsportsfootball
+	Line 2032: content.js:1094 TikTok Profile Enhancer: Debounced processProfilePage call SKIPPED - Conditions not met.
+	Line 2033: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1170 for handleMainPageMutations
+	Line 2122: content.js:45 TikTok Profile Enhancer: Debounce executing for handleMainPageMutations
+	Line 2123: content.js:1034 TikTok Profile Enhancer: handleMainPageMutations received 2 mutations.
+	Line 2124: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1175 for 
+	Line 2125: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1188 for handleMainPageMutations
+	Line 2126: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1203 for handleMainPageMutations
+	Line 2127: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1204 for handleMainPageMutations
+	Line 2129: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1207 for handleMainPageMutations
+	Line 2130: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1220 for handleMainPageMutations
+	Line 2131: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1231 for handleMainPageMutations
+	Line 2132: content.js:45 TikTok Profile Enhancer: Debounce executing for handleMainPageMutations
+	Line 2133: content.js:1034 TikTok Profile Enhancer: handleMainPageMutations received 2 mutations.
+	Line 2134: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1192 for 
+	Line 2135: content.js:45 TikTok Profile Enhancer: Debounce executing for 
+	Line 2136: content.js:1080 TikTok Profile Enhancer: Debounced call to processProfilePage from mutation handler (attempt).
+	Line 2137: content.js:87 TikTok Profile Enhancer: Attempting to get username from URL: /@tntsportsfootball
+	Line 2138: content.js:91 TikTok Profile Enhancer: Username found: tntsportsfootball
+	Line 2139: content.js:1094 TikTok Profile Enhancer: Debounced processProfilePage call SKIPPED - Conditions not met.
+	Line 2416: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1234 for handleMainPageMutations
+	Line 2417: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1400 for handleMainPageMutations
+	Line 2418: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1409 for handleMainPageMutations
+	Line 2419: content.js:45 TikTok Profile Enhancer: Debounce executing for handleMainPageMutations
+	Line 2420: content.js:1034 TikTok Profile Enhancer: handleMainPageMutations received 3 mutations.
+	Line 2421: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1237 for 
+	Line 2422: content.js:45 TikTok Profile Enhancer: Debounce executing for 
+	Line 2423: content.js:1080 TikTok Profile Enhancer: Debounced call to processProfilePage from mutation handler (attempt).
+	Line 2424: content.js:87 TikTok Profile Enhancer: Attempting to get username from URL: /@tntsportsfootball
+	Line 2425: content.js:91 TikTok Profile Enhancer: Username found: tntsportsfootball
+	Line 2426: content.js:1094 TikTok Profile Enhancer: Debounced processProfilePage call SKIPPED - Conditions not met.
+	Line 2693: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1414 for handleMainPageMutations
+	Line 2695: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1534 for handleMainPageMutations
+	Line 2696: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1549 for handleMainPageMutations
+	Line 2697: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1553 for handleMainPageMutations
+	Line 2699: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1563 for handleMainPageMutations
+	Line 2700: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1572 for handleMainPageMutations
+	Line 2702: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1603 for handleMainPageMutations
+	Line 2703: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1614 for handleMainPageMutations
+	Line 2704: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1618 for handleMainPageMutations
+	Line 2706: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1634 for handleMainPageMutations
+	Line 2707: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1643 for handleMainPageMutations
+	Line 2708: content.js:45 TikTok Profile Enhancer: Debounce executing for handleMainPageMutations
+	Line 2709: content.js:1034 TikTok Profile Enhancer: handleMainPageMutations received 3 mutations.
+	Line 2710: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1420 for 
+	Line 2711: content.js:45 TikTok Profile Enhancer: Debounce executing for 
+	Line 2712: content.js:1080 TikTok Profile Enhancer: Debounced call to processProfilePage from mutation handler (attempt).
+	Line 2713: content.js:87 TikTok Profile Enhancer: Attempting to get username from URL: /@tntsportsfootball
+	Line 2714: content.js:91 TikTok Profile Enhancer: Username found: tntsportsfootball
+	Line 2715: content.js:1094 TikTok Profile Enhancer: Debounced processProfilePage call SKIPPED - Conditions not met.
+	Line 2716: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1647 for handleMainPageMutations
+	Line 2717: content.js:45 TikTok Profile Enhancer: Debounce executing for handleMainPageMutations
+	Line 2718: content.js:1034 TikTok Profile Enhancer: handleMainPageMutations received 1 mutations.
+	Line 2719: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1658 for 
+	Line 2720: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1707 for handleMainPageMutations
+	Line 2721: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1719 for handleMainPageMutations
+	Line 2722: content.js:45 TikTok Profile Enhancer: Debounce executing for handleMainPageMutations
+	Line 2723: content.js:1034 TikTok Profile Enhancer: handleMainPageMutations received 3 mutations.
+	Line 2724: content.js:42 TikTok Profile Enhancer: Debounce clearing previous timeout 1716 for 
+	Line 2725: content.js:45 TikTok Profile Enhancer: Debounce executing for 
+	Line 2726: content.js:1080 TikTok Profile Enhancer: Debounced call to processProfilePage from mutation handler (attempt).
+	Line 2727: content.js:87 TikTok Profile Enhancer: Attempting to get username from URL: /@tntsportsfootball
+	Line 2728: content.js:91 TikTok Profile Enhancer: Username found: tntsportsfootball
+	Line 2729: content.js:1094 TikTok Profile Enhancer: Debounced processProfilePage call SKIPPED - Conditions not met.
